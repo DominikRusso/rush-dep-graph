@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "tsBuildInfoFile": "out/.tsbuildinfo",
+
+    /* Language and Environment */
+    "target": "es2022",
+
+    /* Modules */
+    "module": "commonjs",
+    "rootDir": "./src",
+
+    /* Emit */
+    "outDir": "./out",
+    "removeComments": true,
+    "importHelpers": true,
+    "downlevelIteration": false,
+
+    /* Interop Constraints */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+
+    /* Completeness */
+    "skipLibCheck": true
+  }
+}
